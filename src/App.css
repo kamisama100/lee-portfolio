@@ -1,0 +1,60 @@
+.type {
+  overflow: hidden;
+  border-right: .20em solid rgb(252, 251, 249);
+  white-space: nowrap;
+  margin-right:auto;
+  letter-spacing: .15em;
+  animation: 
+  typing 1.2s steps(25),
+  blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 30% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: rgb(0, 0, 0); }
+}
+
+.name {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  background: linear-gradient(to right, midnightblue, midnightblue 50%, rgb(255, 255, 255) 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 275ms ease;
+  text-decoration: none;
+}
+.name:hover {
+  background-position: 0 100%;
+}
+
+/*underline animation*/
+.underline {
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+}
+.underline:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: -3px;
+  left: 0;
+  background-color: #080808;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.underline:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
