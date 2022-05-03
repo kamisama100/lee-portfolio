@@ -2,7 +2,7 @@ import React from 'react'
 import programmer from '../images/programmer.png'
 function FirstPart() {
     return (
-    <section className="introduction mt-[90px]">
+    <section className="introduction xs:mt-[90px] sm:mt-[20px] lg:mt-0">
         <div className = "xs:flex-col lg:grid lg:grid-cols-2 p-0 pt-0 pl:0 lg:p-5 lg:pt-[7rem] lg:pl-[8rem]">
             <div className = "flex flex-col font-roboto gap-2 p-2 pt-5 lg:pt-0 lg:p-0 xs:text-center sm:text-center lg:text-justify w-full justify-center">
                 <p className = "type text-[28px] font-extrabold mx-auto lg:ml-0 opacity-80">
