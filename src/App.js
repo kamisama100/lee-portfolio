@@ -9,17 +9,17 @@ function App() {
   return (
     <div className = "app">
       <NavBar/>
-      <div className = "container grid grid-row-5 max-w-max mx-auto">
+      <div className = "container grid grid-row-5 max-w-max mx-auto" id = "about" >
         <div className='mb-[4.5rem]'>
           <FirstPart/>
         </div>
-        <div className="bg-[url('./images/wave.svg')] bg-cover bg-center bg-no-repeat p-4 pb-24 mb-[5.0rem]">
+        <div className="bg-[url('./images/wave.svg')] bg-cover bg-center bg-no-repeat p-4 pb-24 mb-[5.0rem]" id = "skills">
           <SecondPart className="" />
         </div>
-        <div className=" mb-[7.0rem]">
+        <div className=" mb-[7.0rem]" id = "projects">
           <Projects/>
         </div>
-        <div className='bg-white'>
+        <div className='bg-white' id = "contacts">
           <Contact/>
         </div>
         <div className='bg-blue'>

@@ -3,7 +3,7 @@ import NavBarMain from '../components/navBar/navBarMain'
 import NavBarMenu from '../components/navBar/navBarMenu'
 function NavBar() {
     return (
-        <nav className = "flex bg-blue p-7 font-mainFont h-[5rem]">
+        <nav className = "sticky top-0 flex bg-blue p-7 font-mainFont h-[5rem] z-50">
             <div className='w-full'>
                 <NavBarMain/>
             </div>

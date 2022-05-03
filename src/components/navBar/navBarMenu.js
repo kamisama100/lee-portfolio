@@ -1,5 +1,6 @@
 import React from 'react'
 import menu from '../../images/menu.png'
+import { Link } from 'react-scroll';
 
 function NavBarMenu() {
     return (
@@ -10,18 +11,46 @@ function NavBarMenu() {
             </button>
             <div id="dropdown" className='hidden absolute z-30'>
                 <div className='text-[18px] bg-white items-center flex flex-col rounded p-2 space-y-5 w-[200px] text-black' aria-labelledby="dropdownDefault">
-                    <div className="h-7 underline hover:cursor-pointer w-full text-center">
+                    <Link className="h-7 underline hover:cursor-pointer w-full text-center"
+                        activeClass="active"
+                        to = "about"
+                        spy={true}
+                        smooth={true}
+                        offset={-100}
+                        duration={500} 
+                    >
                         <p className="font-semibold">About</p>
-                    </div>
-                    <div className="h-7 underline hover:cursor-pointer w-full text-center">
+                    </Link>
+                    <Link className="h-7 underline hover:cursor-pointer w-full text-center" 
+                        activeClass="active"
+                        to = "skills"
+                        spy={true}
+                        smooth={true}
+                        offset={-80}
+                        duration={500} 
+                    >
                         <p className="font-semibold opacity-80 hover:opacity-100 ">Skills</p>
-                    </div>
-                    <div className="h-7 underline hover:cursor-pointer w-full text-center">
+                    </Link>
+                    <Link className="h-7 underline hover:cursor-pointer w-full text-center"
+                        activeClass="active"
+                        to = "projects"
+                        spy={true}
+                        smooth={true}
+                        offset={-100}
+                        duration={500} 
+                    >
                         <p className="font-semibold opacity-80 hover:opacity-100 " >Projects</p>
-                    </div>
-                    <div className="h-7 underline hover:cursor-pointer w-full text-center">
+                    </Link>
+                    <Link className="h-7 underline hover:cursor-pointer w-full text-center"
+                        activeClass="active"
+                        to = "contacts"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500} 
+                    >
                         <p className="font-semibold opacity-80 hover:opacity-100 " >Contact</p>
-                    </div>
+                    </Link>
                 </div>
             </div>
         </div>
