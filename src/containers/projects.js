@@ -2,7 +2,7 @@ import React from 'react'
 
 function Projects() {
     return (
-        <section className='my-projects self-center justify-center'>
+        <section className='projects self-center justify-center'>
             <div className='w-full text-center'>
                 <h3 className='mx-auto text-[30px] opacity-75 font-roboto font-extrabold tracking-wide '>My Recent Projects</h3>
                 <p className='text-black text-[22px] opacity-50 tracking-wide mb-[2.5rem]'>Recent Front-end works.</p>
