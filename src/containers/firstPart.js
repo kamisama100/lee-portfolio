@@ -1,5 +1,6 @@
 import React from 'react'
-import programmer from '../images/programmer.png'
+import me from '../images/me.jpg'
+
 function FirstPart() {
     return (
     <section className="introduction xs:mt-[90px] lg:mt-[70px]">
@@ -13,7 +14,7 @@ function FirstPart() {
                 </p>
             </div>
             <div className = " xs:mt-2 md:ml-2 ">
-                <img className='h-80 w-[350px] xs:animate-none lg:animate-bounce-slow xs:mx-auto sm:mx-auto' alt = "prog" src = {programmer}/>
+                <img className='h-80 w-[340px] xs:animate-none lg:animate-bounce-slow xs:mx-auto sm:mx-auto rounded-full ' alt = "prog" src = {me}/>
             </div>
         </div>
     </section>
