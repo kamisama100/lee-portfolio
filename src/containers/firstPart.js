@@ -14,7 +14,7 @@ function FirstPart() {
                 </p>
             </div>
             <div className = " xs:mt-2 md:ml-2 ">
-                <img className='h-80 w-[340px] xs:animate-none lg:animate-bounce-slow xs:mx-auto sm:mx-auto rounded-full ' alt = "prog" src = {me}/>
+                <img className='h-80 w-[320px] xs:animate-none lg:animate-bounce-slow xs:mx-auto sm:mx-auto rounded-full ' alt = "prog" src = {me}/>
             </div>
         </div>
     </section>

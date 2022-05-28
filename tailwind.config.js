@@ -9,10 +9,11 @@ module.exports = {
   ],
   theme: {
     screens:{
-      'xs': '350px',
+      'xs': '310px',
       ...defaultTheme.screens,
     },
     extend: {
+      display: ["group-hover"],
       colors:{
         'blue':'#009ACD',
         'mint': '#FEE715FF',
