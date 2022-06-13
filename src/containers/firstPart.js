@@ -1,5 +1,5 @@
 import React from 'react'
-import me from '../images/me.jpg'
+import me from '../images/me.png'
 
 function FirstPart() {
     return (
@@ -13,8 +13,8 @@ function FirstPart() {
                     An aspiring front-end developer with a goal of improving, make use of knowledge learned, and to work with variety of people and learn from them.
                 </p>
             </div>
-            <div className = " xs:mt-2 md:ml-2 ">
-                <img className='h-80 w-[320px] xs:animate-none lg:animate-bounce-slow xs:mx-auto sm:mx-auto rounded-full ' alt = "prog" src = {me}/>
+            <div className = " xs:mt-2 lg:mt-0 md:ml-2">
+                <img className='h-80 w-[250px] xs:animate-none lg:animate-bounce-slow xs:mx-auto sm:mx-auto rounded-full ' alt = "prog" src = {me}/>
             </div>
         </div>
     </section>
