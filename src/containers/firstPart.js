@@ -1,5 +1,5 @@
 import React from 'react'
-import me from '../images/me.png'
+import firstBack from '../images/firstBack.png'
 
 function FirstPart() {
     return (
@@ -14,7 +14,7 @@ function FirstPart() {
                 </p>
             </div>
             <div className = " xs:mt-2 lg:mt-0 md:ml-2">
-                <img className='h-80 w-[250px] xs:animate-none lg:animate-bounce-slow xs:mx-auto sm:mx-auto rounded-full ' alt = "prog" src = {me}/>
+                <img className='xs:h-[17rem] md:h-80 xs:w-[20rem] md:w-[25rem] lg:w-auto xs:animate-none lg:animate-bounce-slow xs:mx-auto sm:mx-auto rounded-full ' alt = "prog" src = {firstBack}/>
             </div>
         </div>
     </section>
