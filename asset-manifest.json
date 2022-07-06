@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/lee-portfolio/static/css/main.7a0ac914.css",
-    "main.js": "/lee-portfolio/static/js/main.27c8b2c3.js",
+    "main.css": "/lee-portfolio/static/css/main.899f9dad.css",
+    "main.js": "/lee-portfolio/static/js/main.7f0ac433.js",
     "static/media/p1.PNG": "/lee-portfolio/static/media/p1.44cf9c71073730a21227.PNG",
     "static/media/firstBack.png": "/lee-portfolio/static/media/firstBack.5e1ad944252f3ce2beaa.png",
     "static/media/p2.PNG": "/lee-portfolio/static/media/p2.e46420ddb592758b7bdd.PNG",
     "static/media/tailwind.png": "/lee-portfolio/static/media/tailwind.9c2e5bcf4f97d73e438e.png",
+    "static/media/p3.PNG": "/lee-portfolio/static/media/p3.7dd0150dca513476c819.PNG",
     "static/media/skills.png": "/lee-portfolio/static/media/skills.2f657a83c78a1282d8ec.png",
     "index.html": "/lee-portfolio/index.html",
     "static/media/wave.svg": "/lee-portfolio/static/media/wave.acd6df53fd7867eb32cd.svg",
-    "main.7a0ac914.css.map": "/lee-portfolio/static/css/main.7a0ac914.css.map",
-    "main.27c8b2c3.js.map": "/lee-portfolio/static/js/main.27c8b2c3.js.map"
+    "main.899f9dad.css.map": "/lee-portfolio/static/css/main.899f9dad.css.map",
+    "main.7f0ac433.js.map": "/lee-portfolio/static/js/main.7f0ac433.js.map"
   },
   "entrypoints": [
-    "static/css/main.7a0ac914.css",
-    "static/js/main.27c8b2c3.js"
+    "static/css/main.899f9dad.css",
+    "static/js/main.7f0ac433.js"
   ]
 }
